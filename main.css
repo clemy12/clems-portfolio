@@ -1,0 +1,51 @@
+.page {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.navigation {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 390px;
+}
+
+.navigation li {
+	float: left;
+}
+
+.navigation li a {
+	padding: 10px;
+}
+
+.centertext {
+	text-align: center;
+}
+
+.third {
+	width: 33%;
+	float: left;
+}
+
+.half {
+	width: 50%;
+	float: left;
+}
+
+ul.navigation li{
+	display: inline;
+}
+
+div.welcome {
+	background-color: #000;
+	color: #fff;
+}
