@@ -1,12 +1,89 @@
+#nav center{
+list-style: none;
+float: left;
+}
+
+#body{
+width: 600px
+float: left;
+}
+
+
+
+#block1{
+margin-right: 20px;
+background-color: yellow;
+padding: 30px;
+border: 2px solid black;
+width: 180px;
+height: 120px;
+}
+#first-column{
+margin-right: 20px;
+padding: 30px;
+width: 280px;
+}
+#block2{
+background-color: red;
+padding: 30px;
+border: 2px solid black;
+width: 180px;
+height: 120px
+}
+#main-column {
+width: 280px;
+padding: 30px;             
+}
+#block3{
+background-color: green;
+padding: 30px;
+border: 2px solid black;
+width: 180px;
+height: 120px;
+}
+#third-column{
+width: 280px;
+padding: 30px;
+}
+#block4{
+margin-right: 20px;
+background-color: purple;
+padding: 30px;
+border: 2px solid black;
+width: 180px;
+height: 120px;
+}
+#block5{
+margin-right: 20px;
+background-color: blue;
+padding: 30px;
+border: 2px solid black;
+width: 180px;
+height: 120px;
+}
+#footer{
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
 .page {
 	margin: 0 auto;
-	width: 100%;
+	width: 90%;
 }
 
 .cf:before,
 .cf:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+  content: " "; 
+  display: table;
 }
 
 .cf:after {
@@ -19,11 +96,11 @@
 	max-width: 390px;
 }
 
-.navigation li {
+.navigation center{
 	float: left;
 }
 
-.navigation li a {
+.navigation center a {
 	padding: 10px;
 }
 
@@ -31,12 +108,12 @@
 	text-align: center;
 }
 
-.third {
+.first {
 	width: 33%;
 	float: left;
 }
 
-.half {
+.part {
 	width: 50%;
 	float: left;
 }
