@@ -1,12 +1,149 @@
+#nav center{
+list-style: none;
+float: left;
+}
+
+#body{
+width: 0px;
+float: ;
+}
+
+
+
+#div1{
+margin: 0 3.5% 60%px 10%;
+background-color: red;
+padding: 30px;
+border: 2px solid blue;
+width: 680px;
+height: 120px;}
+
+.box1{  
+    width: 200px;
+
+    padding: 95px;
+
+    background-color: ;
+	background-image: url("good.jpg");
+    border: 1px solid black;   
+}
+.box2{
+    position: relative;
+	bottom: 420px;
+    left: 420px;
+    width: 200px;
+
+    padding: 105px;
+
+    background-color: orange;
+
+    border: 1px solid black;  
+}
+.box3{
+    position: relative;
+	bottom: 845px;
+	left: 850px;
+    width: 250px;
+    padding: 105px;
+    background-color: orange;
+    border: 1px solid black;  
+}
+.first-column{
+position: relative;
+right:0px;
+top:100px;
+width: 600px;
+margin: 0 40% 20px 0;
+width: 280px;
+}
+.main-column {
+position: relative;
+bottom: 315px;
+left: 450px;
+width: 300px;
+margin-right: 0 40% 20px 0;
+width: 280px;           
+}
+.third-column{
+position:relative;
+bottom: 750px;
+left: 920px;
+margin: 0 40% 20px 0%;
+width: 280px;
+}
+.part1{
+    position: relative;
+    bottom: 600px;
+    width: 300px;
+    margin: 0 1.5% 4px 0;
+	width: 50%;
+}
+.part2 {
+    position:relative;
+	bottom:1050px;
+	left:820px;
+    margin: 0 1.5% 4px 0%;
+	width: 50%;
+	float: bottom;
+}
+.title{
+position:relative;
+bottom: 700px;
+}
+.div2{
+position:relative;
+bottom: 1000px;
+}
+.div3{
+position:relative;
+bottom: 1130px;
+left: 400px;
+}
+.div4{
+position:relative;
+bottom: 1270px;
+left: 950px;
+}
+.box4{  
+    position: relative;
+	bottom: 600px;
+    width: 250px;
+    padding: 105px;
+    background-color: orange;
+    border: 1px solid black;
+}
+.box5{
+    position: relative;
+	left: 800px;
+	bottom: 1048px;
+    width: 250px;
+    padding: 105px;
+    background-color: orange;
+    border: 1px solid black;
+}
+#footer{
+    clearfix:after;
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
 .page {
-	margin: 0 auto;
-	width: 100%;
+	margin: 30px;
+	width: 90%;
 }
 
 .cf:before,
 .cf:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+  content: " "; 
+  display: table;
 }
 
 .cf:after {
@@ -19,11 +156,11 @@
 	max-width: 390px;
 }
 
-.navigation li {
+.navigation center{
 	float: left;
 }
 
-.navigation li a {
+.navigation center a {
 	padding: 10px;
 }
 
@@ -31,15 +168,11 @@
 	text-align: center;
 }
 
-.third {
+.first {
 	width: 33%;
 	float: left;
 }
 
-.half {
-	width: 50%;
-	float: left;
-}
 
 ul.navigation li{
 	display: inline;
@@ -49,3 +182,5 @@ div.welcome {
 	background-color: #000;
 	color: #fff;
 }
+add a print stylesheet
+
